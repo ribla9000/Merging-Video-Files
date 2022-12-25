@@ -36,10 +36,7 @@ video_parts = [
 ]
 
 def default(video_parts):
-	result = []
-	for i in video_parts:
-		for a in i:
-			result.append(mix(a))	 			
+	[[(mix(a)) for a in i] for i in video_parts ]	 			
 
 def mix(option,settings=default_settings):
 	mix_array = []
