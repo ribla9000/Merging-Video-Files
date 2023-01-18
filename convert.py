@@ -1,9 +1,7 @@
 from moviepy.editor import *
-import time
-import os.path
+import time,random, string, os
 from numpy import arange
 from utils import attrdict 
-import random, string
 import Modificators
 
 
